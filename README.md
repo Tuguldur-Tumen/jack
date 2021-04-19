@@ -1,14 +1,14 @@
 Хэрхэн ашиглах заавар.
 
-   1. Visual studtio дээрээ folderoor нь нээнэ :
+1. Visual studtio дээрээ folderoor нь нээнэ :
 
          "file->Open Folder-->lifenote"
   
-   2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
+2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
    
          "Open Terminal-->npm i"
   
-   3.My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
+3.My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
       
    Датабасэээ үүсгэхдээ үүнийг бичнэ.
 
@@ -46,13 +46,13 @@
    
   
 
-   4.Visual studio ороод “.env” file үүсгээд доорх кодыг бичнэ (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
+4.Visual studio ороод “.env” file үүсгээд доорх кодыг бичнэ (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
   
-    DB_HOST  = 'localhost'
-    DB_USERNAME  = 'root'
-    DB_PASSWORD = ''
-    DB_NAME = 'nodelogin'
-    SERVER_PORT = 3000
+      DB_HOST  = 'localhost'
+      DB_USERNAME  = 'root'
+      DB_PASSWORD = ''
+      DB_NAME = 'nodelogin'
+      SERVER_PORT = 3000
     
     
- 5. Одоо тэрминалаа гаргаад “Localhost:3000” гэж бичнэ
+5. Одоо тэрминалаа гаргаад “Localhost:3000” гэж бичнэ
