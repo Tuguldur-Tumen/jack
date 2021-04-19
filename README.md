@@ -4,7 +4,7 @@
 
 1. Visual studtio дээрээ folderoor нь нээнэ :
 
-         "file->Open Folder-->lifenote"
+        "file->Open Folder-->lifenote"
   
 2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
    
