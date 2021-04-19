@@ -4,7 +4,7 @@
 
          "file->Open Folder-->lifenote"
   
-     2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
+   2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
    
          "Open Terminal-->npm i"
   
