@@ -1,45 +1,45 @@
 Хэрхэн ашиглах заавар.
 
+  1. Visual studtio дээрээ folderoor нь нээнэ :
 
-1. Visual studtio дээрээ folderoor нь нээнэ :
-
-   "file->Open Folder-->lifenote"
+         "file->Open Folder-->lifenote"
   
-2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
+  2.Terminal гаргаж ирээд npm install гэж бичнэ(NPM-ээс модул суулгах):
    
-   "Open Terminal-->npm i"
+         "Open Terminal-->npm i"
+  
+  3.My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
+      Датабасэээ үүсгэхдээ үүнийг бичихэд болно
 
-3.My Sql дээр DataBase үүсгэнэ (Mysql суулгасан байх ёстой):
-  Датабасэээ үүсгэхдээ үүнийг бичихэд болно
 
+     CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+     USE `nodelogin`;
 
-CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `nodelogin`;
-
-CREATE TABLE IF NOT EXISTS `blogPost` (
-  `id` int(11) NOT NULL,
-  `title` varchar(50) NOT NULL,
-   `desTitle` varchar(50) NOT NULL,
-  `description` varchar(255) NOT NULL,
-  `blogPhoto` varchar(255) NOT NULL,
-   `date` varchar(255),
-    `user` varchar(255) NOT NULL,
+     CREATE TABLE IF NOT EXISTS `blogPost` (
+     `id` int(11) NOT NULL,
+     `title` varchar(50) NOT NULL,
+     `desTitle` varchar(50) NOT NULL,
+     `description` varchar(255) NOT NULL,
+     `blogPhoto` varchar(255) NOT NULL,
+     `date` varchar(255),
+     `user` varchar(255) NOT NULL,
      `category` varchar(50)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+     ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 
-ALTER TABLE `blogPost` ADD PRIMARY KEY (`id`);
-ALTER TABLE `blogPost` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
-  CREATE TABLE IF NOT EXISTS `accounts` (
-  `id` int(11) NOT NULL,
-  `username` varchar(50) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-   `profilePicture` varchar(255)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-ALTER TABLE `accounts` ADD PRIMARY KEY (`id`);
-ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;     
+     ALTER TABLE `blogPost` ADD PRIMARY KEY (`id`);
+     ALTER TABLE `blogPost` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+     CREATE TABLE IF NOT EXISTS `accounts` (
+     `id` int(11) NOT NULL,
+     `username` varchar(50) NOT NULL,
+     `password` varchar(255) NOT NULL,
+     `email` varchar(255) NOT NULL,
+     `profilePicture` varchar(255)
+     ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+     ALTER TABLE `accounts` ADD PRIMARY KEY (`id`);
+     ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;    
 
 
 
