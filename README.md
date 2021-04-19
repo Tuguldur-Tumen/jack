@@ -42,13 +42,11 @@
      ALTER TABLE `accounts` ADD PRIMARY KEY (`id`);
      ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2; 
    (RUN ДАРНА)
- 
+   
+   
+  
 
- 
-
-
-
-5.Visual studio ороод “.env” file үүсгээд доорх кодыг бичнэ (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
+  4.Visual studio ороод “.env” file үүсгээд доорх кодыг бичнэ (DB_PASSWORD дээр өөрийнхөө password-ийг хийж өгнө)
   
     DB_HOST  = 'localhost'
     DB_USERNAME  = 'root'
@@ -57,7 +55,7 @@
     SERVER_PORT = 3000
     
     
- 6. Одоо тэрминалаа гаргаад “Localhost:3000” гэж бичнэ
+  5. Одоо тэрминалаа гаргаад “Localhost:3000” гэж бичнэ
 
 
 
