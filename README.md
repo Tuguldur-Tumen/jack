@@ -1,6 +1,6 @@
 Хэрхэн ашиглах заавар.
 
- 1. Visual studtio дээрээ folderoor нь нээнэ :
+   1. Visual studtio дээрээ folderoor нь нээнэ :
 
          "file->Open Folder-->lifenote"
   
